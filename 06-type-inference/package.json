@@ -1,0 +1,11 @@
+{
+  "name": "type-inference",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "node basic-inference.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
