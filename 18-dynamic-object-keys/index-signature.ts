@@ -9,4 +9,4 @@ const scores: Scores = {
   english: 85
 };
 
-console.log(scores);
+console.log(scores);   
