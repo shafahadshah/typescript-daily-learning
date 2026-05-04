@@ -1,10 +1,11 @@
 // Generic interface with methods
+// Fixed version
 
-interface Storage<T> {
+interface DataStorage<T> {
   add(item: T): void;
 }
 
-class StringStorage implements Storage<string> {
+class StringStorage implements DataStorage<string> {
   private data: string[] = [];
 
   add(item: string) {
