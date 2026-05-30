@@ -5,14 +5,18 @@ import express, {
 
 const app = express();
 
+type UserParams = {
+  id: string;
+};
+
 app.get(
-  "/",
+  "/users/:id",
   (
-    req: Request,
+    req: Request<UserParams>,
     res: Response
   ) => {
     res.json({
-      message: "Success",
+      id: req.params.id,
     });
   }
 );
