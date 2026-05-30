@@ -5,18 +5,24 @@ import express, {
 
 const app = express();
 
-type UserParams = {
-  id: string;
+type SearchQuery = {
+  keyword?: string;
 };
 
 app.get(
-  "/users/:id",
+  "/search",
   (
-    req: Request<UserParams>,
+    req: Request<
+      {},
+      {},
+      {},
+      SearchQuery
+    >,
     res: Response
   ) => {
     res.json({
-      id: req.params.id,
+      keyword:
+        req.query.keyword,
     });
   }
 );
