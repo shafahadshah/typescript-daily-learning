@@ -1,0 +1,15 @@
+{
+  "name": "websocket-ts-server",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node server.ts"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "ts-node": "^10.9.2",
+    "@types/ws": "^8.18.1"
+  }
+}
