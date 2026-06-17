@@ -1,0 +1,17 @@
+{
+  "name": "microservices-ts",
+  "private": true,
+  "scripts": {
+    "dev:user": "ts-node user-service.ts",
+    "dev:order": "ts-node order-service.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "axios": "^1.11.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "ts-node": "^10.9.2",
+    "@types/express": "^5.0.3"
+  }
+}
