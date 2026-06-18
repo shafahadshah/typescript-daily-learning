@@ -1,0 +1,14 @@
+{
+  "name": "cli-tool-ts",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "ts-node": "^10.9.2"
+  }
+}
