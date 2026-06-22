@@ -1,0 +1,11 @@
+{
+  "name": "type-safe-app",
+  "private": true,
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/express": "^5.0.3"
+  }
+}
