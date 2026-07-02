@@ -1,0 +1,13 @@
+type UserDto = {
+  id: number;
+  name: string;
+  email: string;
+};
+
+const user: UserDto = {
+  id: 1,
+  name: "Ali",
+  email: "ali@test.com",
+};
+
+console.log(user);
